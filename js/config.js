@@ -11,6 +11,6 @@ window.SITE_CONFIG = {
   // WhatsApp link (phone number stays behind wa.me rather than displayed as plain text)
   whatsappUrl: "https://wa.me/34640287010",
 
-  // Default language when browser preference is neither Catalan nor Spanish
-  defaultLang: "es"
+  // Default language for first-time visitors
+  defaultLang: "ca"
 };

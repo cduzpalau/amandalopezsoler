@@ -272,9 +272,7 @@ window.I18N = (() => {
     } catch (_) {
       // Ignore storage restrictions
     }
-    const browserLang = (navigator.language || "").toLowerCase();
-    if (browserLang.startsWith("ca")) return "ca";
-    return (window.SITE_CONFIG && window.SITE_CONFIG.defaultLang) || "es";
+    return (window.SITE_CONFIG && window.SITE_CONFIG.defaultLang) || "ca";
   }
 
   let currentLang = detectInitialLang();
