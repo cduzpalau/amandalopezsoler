@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amanda López Soler — Psicología y Medicina Tradicional China</title>
+  <meta name="description" content="Psicología humanista integradora y Medicina Tradicional China en Terrassa. Un espacio seguro para armonizar mente y cuerpo.">
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido" data-i18n="skip.content">Ir al contenido principal</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#inicio" class="brand-logo" aria-label="Amanda López Soler">
+        <img src="./assets/images/logo.png" alt="Amanda López Soler Psicóloga" width="436" height="148">
+      </a>
+
+      <button
+        id="menu-toggle"
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+        data-i18n-aria-label="nav.menuOpen"
+        aria-label="Abrir menú de navegación"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <line x1="4" y1="7" x2="20" y2="7"></line>
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="17" x2="20" y2="17"></line>
+        </svg>
+      </button>
+
+      <nav id="primary-nav" class="header-nav" aria-label="Navegación principal">
+        <ul class="nav-links">
+          <li><a href="#inicio" data-i18n="nav.home">Inicio</a></li>
+          <li><a href="#terapias" data-i18n="nav.therapies">Terapias</a></li>
+          <li><a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a></li>
+          <li><a href="#contacto" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+
+        <div class="lang-switch" role="group" data-i18n-aria-label="nav.langLabel" aria-label="Seleccionar idioma">
+          <button type="button" data-lang-btn="ca" aria-pressed="false">CA</button>
+          <button type="button" data-lang-btn="es" aria-pressed="true" class="is-active">ES</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Psicología y Medicina Tradicional China</p>
+          <h1 data-i18n="hero.title">Mente y cuerpo en armonía</h1>
+
+          <blockquote class="hero-quote">
+            <p data-i18n="hero.quote">«Busca paz para tu mente y obtendrás salud para tu cuerpo»</p>
+            <cite data-i18n="hero.quoteAuthor">Lao Tse</cite>
+          </blockquote>
+
+          <div class="hero-actions">
+            <a href="#contacto" class="btn btn--primary" data-i18n="hero.ctaPrimary">Agendar cita</a>
+            <a href="#sobre-mi" class="btn btn--ghost" data-i18n="hero.ctaSecondary">Conóceme</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <img
+            src="./assets/images/amanda-hero.jpg"
+            alt="Amanda López Soler, psicóloga y especialista en Medicina Tradicional China"
+            data-i18n-alt="hero.photoAlt"
+            class="hero-photo"
+            width="1030"
+            height="1200"
+            fetchpriority="high"
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Tu lugar seguro & Valores -->
+    <section id="presentacion" class="section section--surface">
+      <div class="container">
+        <div class="intro-block reveal">
+          <p class="eyebrow" data-i18n="intro.eyebrow">Tu lugar seguro</p>
+          <h2 data-i18n="intro.title">Amanda López Soler</h2>
+          <p class="lead" data-i18n="intro.text">
+            Mi pasión es integrar la Psicología con la Medicina Tradicional China. Busco acompañarte por un camino de bienestar y armonía interna, diseñando un recorrido personalizado en función de tus necesidades.
+          </p>
+          <a href="#sobre-mi" class="btn btn--ghost" data-i18n="intro.cta">Conóceme</a>
+        </div>
+
+        <div style="margin-top: clamp(3.5rem, 6vw, 5rem);" class="reveal">
+          <div class="section-header">
+            <p class="eyebrow" data-i18n="values.eyebrow">Mi manera de acompañar</p>
+            <h2 data-i18n="values.title">Los valores que guían cada sesión</h2>
+          </div>
+
+          <div class="values-grid">
+            <article class="value-item">
+              <span class="value-num" aria-hidden="true">01</span>
+              <h3 data-i18n="values.v1.title">Aceptación incondicional</h3>
+              <p data-i18n="values.v1.text">Este es tu espacio de expresión sin juicio.</p>
+            </article>
+
+            <article class="value-item">
+              <span class="value-num" aria-hidden="true">02</span>
+              <h3 data-i18n="values.v2.title">Empatía</h3>
+              <p data-i18n="values.v2.text">
+                Comprendo tus necesidades individuales y te propongo el acompañamiento más adecuado para conseguir tus metas de bienestar.
+              </p>
+            </article>
+
+            <article class="value-item">
+              <span class="value-num" aria-hidden="true">03</span>
+              <h3 data-i18n="values.v3.title">Confianza</h3>
+              <p data-i18n="values.v3.text">
+                Este es tu lugar seguro, con un clima de confianza donde empezar tu proceso hacia el bienestar.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Terapias y Patologías frecuentes -->
+    <section id="terapias" class="section">
+      <div class="container">
+        <div class="therapies-intro reveal">
+          <div>
+            <p class="eyebrow" data-i18n="therapies.eyebrow">Servicios en psicología y acupuntura</p>
+            <h2 data-i18n="therapies.title">Mis terapias</h2>
+          </div>
+          <div>
+            <p class="lead" data-i18n="therapies.lead">
+              Con una base en la psicología y una especialización en la Medicina Tradicional China, ofrezco un enfoque único y personalizado para cada uno de mis clientes.
+            </p>
+            <p data-i18n="therapies.body">
+              La psicología es la terapia principal a la que añado técnicas como la acupuntura, principalmente. Un proceso psicoterapéutico nos permite profundizar y llegar al origen de nuestro malestar emocional. La acupuntura contribuye a hacer este camino más llevadero cuando hay una sintomatología que dificulta nuestro día a día, como por ejemplo ansiedad, insomnio, problemas digestivos, tensiones musculares y un largo etcétera.
+            </p>
+            <p data-i18n="therapies.sublead">
+              Desde terapias psicológicas hasta técnicas avanzadas de acupuntura, cada opción está cuidadosamente adaptada para responder a tus necesidades únicas y promover tu armonía personal.
+            </p>
+          </div>
+        </div>
+
+        <div class="pillars-grid reveal">
+          <article class="pillar-card">
+            <h3 data-i18n="therapies.p1.title">Psicología clínica</h3>
+            <p data-i18n="therapies.p1.text">
+              Psicoterapia humanista integradora para profundizar en el origen del malestar emocional y fomentar el autoconocimiento.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <h3 data-i18n="therapies.p2.title">Acupuntura</h3>
+            <p data-i18n="therapies.p2.text">
+              Medicina Tradicional China para aliviar la sintomatología física y recuperar el equilibrio energético y corporal.
+            </p>
+          </article>
+
+          <article class="pillar-card">
+            <h3 data-i18n="therapies.p3.title">Terapias combinadas</h3>
+            <p data-i18n="therapies.p3.text">
+              Un recorrido integrado que entrelaza mente y cuerpo cuando el malestar emocional se refleja también en síntomas físicos.
+            </p>
+          </article>
+        </div>
+
+        <div class="reveal">
+          <div class="conditions-header">
+            <p class="eyebrow" data-i18n="conditions.eyebrow">Patologías frecuentes</p>
+            <h2 data-i18n="conditions.title">¿En qué te puedo acompañar?</h2>
+          </div>
+
+          <div class="conditions-grid">
+            <article class="condition-item">
+              <h3 data-i18n="conditions.c1.title">Ansiedad y estrés</h3>
+              <p data-i18n="conditions.c1.text">
+                Abordo la ansiedad y el estrés no como enemigos, sino como señales a equilibrar. A través de técnicas personalizadas, te enseño a restaurar la calma y a mantener un equilibrio emocional sostenible.
+              </p>
+            </article>
+
+            <article class="condition-item">
+              <h3 data-i18n="conditions.c2.title">Dolor crónico</h3>
+              <p data-i18n="conditions.c2.text">
+                Combatiendo el dolor crónico desde múltiples frentes, ofrezco alivio y nuevas perspectivas para manejar el dolor, facilitando una mejor calidad de vida sin depender únicamente de medicamentos.
+              </p>
+            </article>
+
+            <article class="condition-item">
+              <h3 data-i18n="conditions.c3.title">Desequilibrios emocionales</h3>
+              <p data-i18n="conditions.c3.text">
+                Mediante un enfoque compasivo y técnicas que promueven el bienestar emocional, te guío hacia la superación de estados depresivos y hacia el fortalecimiento de tu salud mental.
+              </p>
+            </article>
+
+            <article class="condition-item">
+              <h3 data-i18n="conditions.c4.title">Problemas de sueño</h3>
+              <p data-i18n="conditions.c4.text">
+                Abordo los problemas de sueño con estrategias que favorecen un descanso reparador, ayudándote a mejorar tanto la calidad como la cantidad de tu sueño, esencial para un bienestar integral.
+              </p>
+            </article>
+
+            <article class="condition-item">
+              <h3 data-i18n="conditions.c5.title">Dificultades digestivas</h3>
+              <p data-i18n="conditions.c5.text">
+                A través de un enfoque holístico que incluye acupuntura y manejo del estrés, trabajo para aliviar los trastornos digestivos, mejorando tu bienestar general desde el interior.
+              </p>
+            </article>
+
+            <article class="condition-item">
+              <h3 data-i18n="conditions.c6.title">Desbalance energético</h3>
+              <p data-i18n="conditions.c6.text">
+                Restauro tu vitalidad y equilibrio interior, tratando el desbalance energético con técnicas que revitalizan tu cuerpo y mente, fomentando una salud óptima y un bienestar duradero.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cita pausa -->
+    <section class="quote-band reveal" aria-label="Cita">
+      <div class="container">
+        <blockquote>
+          <p data-i18n="quote.text">
+            «Permíteme guiarte en un viaje hacia el autoconocimiento y el bienestar donde la Psicología y la Medicina Tradicional China se entrelazan para revitalizar tanto tu mente como tu cuerpo».
+          </p>
+          <cite data-i18n="quote.author">Amanda López Soler</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="section">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img
+            src="./assets/images/amanda-about.jpg"
+            alt="Retrato de Amanda López Soler sentada en consulta"
+            data-i18n-alt="about.photoAlt"
+            class="about-photo"
+            width="1200"
+            height="1168"
+            loading="lazy"
+          >
+        </div>
+
+        <div class="about-story reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Armonizando tu interior</p>
+          <h2 data-i18n="about.title">Soy Amanda López Soler</h2>
+          <p class="lead" data-i18n="about.intro">
+            Mi pasión es crear un puente entre la salud mental y física, ofreciendo un enfoque integrado que promueve la armonía y el bienestar.
+          </p>
+
+          <p class="eyebrow" data-i18n="about.storyEyebrow">Mi formación y experiencia</p>
+          <h3 data-i18n="about.storyTitle">Conocimiento y cuidado para tu bienestar</h3>
+
+          <p data-i18n="about.p1">
+            Tomo conciencia de la relación mente-cuerpo por primera vez cuando a los 7 años conozco el Yoga, disciplina que no abandonaría y que me acompañaría hasta la actualidad, aunque con variaciones de formato.
+          </p>
+          <p data-i18n="about.p2">
+            Supongo que el afán por comprender el comportamiento de las personas me hizo decantar hacia la Psicología, la cual me proporcionó en un primer momento unos conocimientos altamente científicos y biológicos.
+          </p>
+          <p data-i18n="about.p3">
+            La práctica clínica me evidenciaba constantemente la correlación entre la psique y el cuerpo físico, y eso me llevaba a querer complementar mis conocimientos con formaciones más corporales como el quiromasaje, la reflexología podal y finalmente la Medicina Tradicional China.
+          </p>
+          <p data-i18n="about.p4">
+            Para mí fue apasionante descubrir cómo la Medicina Tradicional China integra las emociones como una parte más a considerar en todo el complejo encaje que configura la persona.
+          </p>
+          <p data-i18n="about.p5">
+            A nivel psicológico, los años de experiencia me han llevado hacia una psicoterapia humanista integradora, porque es la orientación más coherente con mi persona.
+          </p>
+          <p data-i18n="about.p6">
+            Para mí, la relación terapéutica es una relación humana, cercana y honesta, necesaria para lograr la resolución del malestar emocional o del objetivo que se quiera conseguir. No doy consejos ni pautas aisladas (¡como tan de moda está hoy en día la búsqueda rápida de soluciones inmediatas!) y tampoco dirijo la vida de mis clientes.
+          </p>
+          <p data-i18n="about.p7">
+            Intento crear un espacio de máxima seguridad y confianza en el que acompaño sus procesos poniendo el foco en aquellos asuntos o emociones bloqueados que están interfiriendo en el bienestar de la persona. Me ilusiona observar cómo mis clientes crecen personalmente, profundizando en autoconocimiento y consciencia de uno mismo.
+          </p>
+          <p data-i18n="about.p8">
+            Gracias a ello van trabajando y mejorando el motivo que les llevó a consulta.
+          </p>
+
+          <div class="credentials">
+            <h3 data-i18n="about.credentialsTitle">Formación y acreditaciones</h3>
+            <ul class="credentials-list">
+              <li data-i18n="about.cred1">Licenciada en Psicología por la Universitat Autònoma de Barcelona.</li>
+              <li data-i18n="about.cred2">Máster en Medicina Tradicional China y Acupuntura por la Escola Universitària d’Infermeria de Sant Joan de Déu (Universitat de Barcelona).</li>
+              <li data-i18n="about.cred3">Nivel I y II de Psicoterapia de integración y reprocesamiento del trauma, por el Instituto Alecés (Mario Salvador y Carmen Cuenca).</li>
+              <li data-i18n="about.cred4">Colegiada en el Col·legi Oficial de Psicòlegs de Catalunya núm. 15.451.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Band -->
+    <section class="cta-band reveal">
+      <div class="container">
+        <h2 data-i18n="cta.title">Da el primer paso hacia el bienestar integral</h2>
+        <a href="#contacto" class="btn btn--primary" data-i18n="cta.button">Agendar cita</a>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Hablemos sobre tu salud</p>
+          <p class="lead" data-i18n="contact.intro">
+            Descubre una gama de servicios diseñados para promover tu bienestar integral.
+          </p>
+
+          <img
+            src="./assets/images/amanda-contact.jpg"
+            alt="Amanda López Soler en su consulta"
+            data-i18n-alt="contact.photoAlt"
+            class="contact-photo"
+            width="1191"
+            height="1200"
+            loading="lazy"
+          >
+
+          <div class="contact-details">
+            <div>
+              <span class="contact-detail-label" data-i18n="contact.locationLabel">Consulta presencial</span>
+              <p class="contact-detail-value" data-i18n="contact.locationAddress">
+                Carrer Arenys de Mar, 34, Terrassa — Centre POSTURALMENT
+              </p>
+              <a
+                href="https://maps.app.goo.gl/3mrcAE2L84cFVJdR6"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+                data-i18n="contact.locationLink"
+              >Ver en Google Maps</a>
+            </div>
+
+            <div>
+              <span class="contact-detail-label" data-i18n="contact.whatsappLabel">WhatsApp</span>
+              <a
+                href="https://wa.me/34640287010"
+                data-whatsapp-link
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+                data-i18n="contact.whatsappLink"
+              >Enviar un mensaje por WhatsApp</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <h2 id="contact-form-heading" data-i18n="contact.title">Estoy aquí para ayudarte</h2>
+          <p data-i18n="contact.formIntro">
+            Completa este formulario para cualquier consulta o para programar una cita. Me aseguraré de responder a la brevedad posible para discutir tus necesidades y cómo puedo ayudarte.
+          </p>
+
+          <form
+            id="contact-form"
+            method="POST"
+            action="#"
+            aria-labelledby="contact-form-heading"
+            novalidate
+          >
+            <!-- Honeypot spam trap hidden from assistive tech -->
+            <div class="hp-field" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-field">
+              <label for="name" data-i18n="form.name">Nombre</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                enterkeyhint="next"
+                maxlength="120"
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="phone" data-i18n="form.phone">Teléfono</label>
+              <span id="phone-hint" class="field-hint" data-i18n="form.phoneHint">
+                Opcional, si prefieres que te contacte por teléfono o WhatsApp.
+              </span>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                autocomplete="tel"
+                inputmode="tel"
+                enterkeyhint="next"
+                aria-describedby="phone-hint"
+                maxlength="30"
+              >
+            </div>
+
+            <div class="form-field">
+              <label for="email">
+                <span data-i18n="form.email">Correo electrónico</span>
+                <span aria-hidden="true">*</span>
+              </label>
+              <span id="email-hint" class="field-hint" data-i18n="form.emailHint">
+                Ejemplo: tu@correo.com
+              </span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                autocomplete="email"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
+                enterkeyhint="next"
+                aria-describedby="email-hint"
+                data-error="email-error"
+              >
+              <div id="email-error" class="error-msg">
+                <span role="img" data-i18n-aria-label="form.errorPrefix" aria-label="Error">✕</span>
+                <span data-i18n="form.emailError">Introduce una dirección de correo electrónico válida (por ejemplo, tu@correo.com).</span>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="message">
+                <span data-i18n="form.message">Mensaje</span>
+                <span aria-hidden="true">*</span>
+              </label>
+              <span id="message-hint" class="field-hint" data-i18n="form.messageHint">
+                Cuéntame brevemente en qué te puedo ayudar o tu disponibilidad.
+              </span>
+              <textarea
+                id="message"
+                name="message"
+                required
+                rows="4"
+                aria-describedby="message-hint"
+                data-error="message-error"
+                maxlength="2000"
+              ></textarea>
+              <div id="message-error" class="error-msg">
+                <span role="img" data-i18n-aria-label="form.errorPrefix" aria-label="Error">✕</span>
+                <span data-i18n="form.messageError">Por favor, escribe un breve mensaje antes de enviar.</span>
+              </div>
+            </div>
+
+            <div class="form-checkbox">
+              <div class="checkbox-row">
+                <input
+                  type="checkbox"
+                  id="privacy"
+                  name="privacy"
+                  required
+                  data-error="privacy-error"
+                >
+                <label for="privacy">
+                  <span data-i18n="form.privacyPrefix">He leído y acepto la</span>
+                  <a href="./privacidad.html" data-i18n="form.privacyLink">Política de privacidad</a>.
+                  <span aria-hidden="true">*</span>
+                </label>
+              </div>
+              <div id="privacy-error" class="error-msg">
+                <span role="img" data-i18n-aria-label="form.errorPrefix" aria-label="Error">✕</span>
+                <span data-i18n="form.privacyError">Debes aceptar la política de privacidad para enviar el formulario.</span>
+              </div>
+            </div>
+
+            <button id="form-submit" type="submit" class="btn btn--primary" data-i18n="form.submit">
+              Enviar mensaje
+            </button>
+
+            <div id="form-status" class="form-status" role="status" aria-live="polite" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="./assets/images/logo.png" alt="Amanda López Soler Psicóloga" width="436" height="148" loading="lazy">
+        <p data-i18n="footer.tagline">Psicología y Medicina Tradicional China · Terrassa</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Legal">
+        <a href="./aviso-legal.html" data-i18n="footer.legal">Aviso legal</a>
+        <a href="./privacidad.html" data-i18n="footer.privacy">Política de privacidad</a>
+      </nav>
+
+      <p class="footer-copy">
+        © <span id="copyright-year">2026</span> Amanda López Soler.
+        <span data-i18n="footer.rights">Todos los derechos reservados.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Discreet Floating WhatsApp Button -->
+  <a
+    href="https://wa.me/34640287010"
+    data-whatsapp-link
+    target="_blank"
+    rel="noopener noreferrer"
+    class="whatsapp-fab"
+    data-i18n-aria-label="whatsapp.floatingLabel"
+    aria-label="Escribir por WhatsApp a Amanda López Soler"
+  >
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+      <path d="M16.004 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.59 4.46 1.71 6.4L3.2 28.8l6.58-1.72c1.88 1.02 4 1.56 6.22 1.56 7.06 0 12.8-5.74 12.8-12.8s-5.74-12.64-12.8-12.64zm0 23.26c-1.92 0-3.8-.52-5.44-1.5l-.39-.23-3.9 1.02 1.04-3.8-.25-.4a10.56 10.56 0 0 1-1.62-5.65c0-5.84 4.74-10.58 10.58-10.58 5.84 0 10.58 4.74 10.58 10.58 0 5.84-4.76 10.56-10.6 10.56zm5.8-7.92c-.32-.16-1.88-.93-2.17-1.03-.29-.11-.5-.16-.72.16-.21.32-.82 1.03-1.01 1.24-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.58-.95-.85-1.59-1.89-1.78-2.21-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66 0 1.57 1.14 3.09 1.3 3.3.16.21 2.25 3.43 5.45 4.81.76.33 1.35.52 1.82.67.76.24 1.46.21 2.01.13.61-.09 1.88-.77 2.15-1.51.27-.74.27-1.38.19-1.51-.08-.13-.29-.21-.61-.37z"/>
+    </svg>
+  </a>
+
+  <script src="./js/config.js"></script>
+  <script src="./js/i18n.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+</html>
