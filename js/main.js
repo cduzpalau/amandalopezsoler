@@ -17,6 +17,13 @@
     });
   }
 
+  const instagramUrl = window.SITE_CONFIG?.instagramUrl;
+  if (instagramUrl) {
+    document.querySelectorAll("[data-instagram-link]").forEach((a) => {
+      a.setAttribute("href", instagramUrl);
+    });
+  }
+
   // 3. Mobile navigation menu
   const menuBtn = document.getElementById("menu-toggle");
   const nav = document.getElementById("primary-nav");

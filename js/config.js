@@ -11,6 +11,9 @@ window.SITE_CONFIG = {
   // WhatsApp link (phone number stays behind wa.me rather than displayed as plain text)
   whatsappUrl: "https://wa.me/34640287010",
 
+  // Instagram profile link
+  instagramUrl: "https://www.instagram.com/amandalsoler",
+
   // Default language for first-time visitors
   defaultLang: "ca"
 };

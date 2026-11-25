@@ -102,6 +102,8 @@ window.TRANSLATIONS = {
     "contact.locationLink": "Ver en Google Maps",
     "contact.whatsappLabel": "WhatsApp",
     "contact.whatsappLink": "Enviar un mensaje por WhatsApp",
+    "contact.instagramLabel": "Instagram",
+    "social.instagramAria": "Seguir a Amanda López Soler en Instagram",
 
     "form.name": "Nombre",
     "form.phone": "Teléfono",
@@ -230,6 +232,8 @@ window.TRANSLATIONS = {
     "contact.locationLink": "Veure a Google Maps",
     "contact.whatsappLabel": "WhatsApp",
     "contact.whatsappLink": "Enviar un missatge per WhatsApp",
+    "contact.instagramLabel": "Instagram",
+    "social.instagramAria": "Seguir l'Amanda López Soler a Instagram",
 
     "form.name": "Nom",
     "form.phone": "Telèfon",
