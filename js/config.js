@@ -6,7 +6,7 @@
  */
 window.SITE_CONFIG = {
   // Example: "https://script.google.com/macros/s/AKfycbx.../exec"
-  contactFormEndpoint: "",
+  contactFormEndpoint: "https://script.google.com/macros/s/AKfycbwsk-t4FWPXM0PikJE6ytUUdM95nHFSSHCHvv7RfdFjydxMkOTjxdRWDUU-1I45CqVu/exec",
 
   // WhatsApp link (phone number stays behind wa.me rather than displayed as plain text)
   whatsappUrl: "https://wa.me/34640287010",
